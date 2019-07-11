@@ -344,7 +344,7 @@ Some Microsoft services that interact with storage accounts operate from network
 
 To help this type of service work as intended, allow the set of trusted Microsoft services to bypass the network rules. These services will then use strong authentication to access the storage account.
 
-If you enable the **Allow trusted Microsoft services...** exception, the following services (when registered in your subscription), are granted access to the storage account:
+If you enable the **Allow trusted Microsoft services...** exception, the following services (when the resource provider registered in your subscription), are granted access to the storage account:
 
 |Service|Resource Provider Name|Purpose|
 |:------|:---------------------|:------|
